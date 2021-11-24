@@ -1,0 +1,15 @@
+Code Documentation-
+
+Db.php - Setting DB connection in one file and using it in other files whenever required.
+
+WebScraping.php - 1. Defined WebScraping class
+                  2. Defined Cunstructor - Construct method called on instantiation of object
+                  3. getCurl - Method for making a GET request using cURL
+                  3. getXPathObj - Method to get XPath object
+
+Scrapper.php -    1. Initializing the  database
+                  2. Intializing the WeScraping object and retrieving the data from the html elements
+                  3. Query will evaluate the expression of the node inside the html document
+                  4. Getting the posts data
+                  5. Using implode to function to get comma separated values
+                  6. Insert query
